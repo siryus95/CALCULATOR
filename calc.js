@@ -1,6 +1,8 @@
 let a, b, c, d, e, f;
 a=window.prompt("enter the first digit");
 b=window.prompt("enter the second digit");
+a=parseFloat(a);
+b=parseFloat(b);
 c=a*b;
 d=a+b;
 e=a-b;
